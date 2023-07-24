@@ -1,0 +1,49 @@
+input{
+  border: none;
+  box-shadow: 0px 0px 10px rgba(67, 65, 65, 4);
+  
+  
+  padding: 10px;
+  margin: 01px;
+  border: 2px solid;
+  border-radius: 10px;
+}
+input:focus{
+  text-decoration: none;
+}
+input:focus-within{
+  border: 2px solid aqua;
+}
+.App,h3{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+p{
+  box-shadow: 0 5px 8px 0 rgba(20, 12, 12, 0.2);
+  background-color: rgb(180, 176, 201) ;
+  transition: 0.3s;
+  padding: 50px;
+ 
+ 
+}
+form{
+  box-shadow: 0 5px 8px 0 rgba(20, 12, 12, 0.2);
+  background-color: rgb(180, 176, 201) ;
+  box-shadow: 0px 0px 10px rgba(67, 65, 65, 4);
+  border-radius: 10px;
+  transition: 0.3s;
+  padding: 50px;
+ 
+ 
+}
+button{
+  background-color: rgb(161, 104, 165);
+}
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto; 
+  margin-right: auto;
+}
